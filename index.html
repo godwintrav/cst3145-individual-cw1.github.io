@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/all.js"></script>
+
+    <title>Book Store</title>
+</head>
+
+<body>
+    <section id="search-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>MDX Book Store</h2>
+                </div>
+                <div class="col-md-7">
+                    <form class="search-button">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </div>
+                <div class="col-md-2 cart">
+                    <p class="fa fa-shopping-cart mt-2" style="color: #408497;"></p> <span style="color: #408497">0</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Home | Store</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="dropdown show drop-down-1">
+                        <a class="btn select-btn-1 btn-info dropdown-toggle" href="#" style="width: 100%" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 Subject
+                            </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Maths</a>
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">Music</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown show drop-down-2">
+                        <a class="btn select-btn-2 btn-info dropdown-toggle" href="#" style="width: 100%" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                     Ascending order
+                                </a>
+
+                        <div class="dropdown-menu drop-2" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item drop-item-2" href="#">Descending Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="row grid-1">
+                        <div class="col-md-4">
+                            <div class="col-md-12 subject-1">
+                                <div class="row">
+                                    <div class="col-md-6 subject-box">
+                                        <P>Subject: Maths<br> Location: London<br> Price: <span>&#163;100</span><br> Spaces: 5</P>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="image/calc.png" alt="" style="width: 100px; height: 100px; margin-top: 20px">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-1 btn-info" style="width: 100%">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="col-md-12 subject-2">
+                                <div class="row">
+                                    <div class="col-md-6 subject-box">
+                                        <P>Subject: Maths<br> Location: Oxford<br> Price: <span>&#163;100</span><br> Spaces: 5</P>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="image/calc.png" alt="" style="width: 100px; height: 100px; margin-top: 20px">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-1 btn-info" style="width: 100%">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="col-md-12 subject-3">
+                                <div class="row">
+                                    <div class="col-md-6 subject-box">
+                                        <P>Subject: English<br> Location: London<br> Price: <span>&#163;100</span><br> Spaces: 5</P>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="image/pentool.png" alt="" style="width: 100px; height: 100px; margin-top: 20px">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-1 btn-info" style="width: 100%">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row grid-2">
+                        <div class="col-md-4">
+                            <div class="col-md-12 subject-4">
+                                <div class="row">
+                                    <div class="col-md-6 subject-box">
+                                        <P>Subject: English<br> Location: York<br> Price: <span>&#163;80</span><br> Spaces: 5</P>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="image/pentool.png" alt="" style="width: 100px; height: 100px; margin-top: 20px">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-1 btn-info" style="width: 100%">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="col-md-12 subject-5">
+                                <div class="row">
+                                    <div class="col-md-6 subject-box">
+                                        <P>Subject: Music<br> Location: Bristol<br> Price: <span>&#163;90</span><br> Spaces: 5</P>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="image/music.png" alt="" style="width: 100px; height: 100px; margin-top: 20px">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-1 btn-info" style="width: 100%">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="col-md-12 subject-6">
+                                <div class="row">
+                                    <div class="col-md-6 subject-box">
+                                        <P>Subject: Music<br> Location: Cardiff<br> Price: <span>&#163;100</span><br> Spaces: 5</P>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="image/music.png" alt="" style="width: 100px; height: 100px; margin-top: 20px">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-1 btn-info" style="width: 100%">Add to Cart</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="check-out">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="col-md-12 check-out-1">
+                        <div class="row">
+                            <div class="col-md-6 subject-box">
+                                <P>Subject: Maths<br> Location: London<br> Price: <span>&#163;100</span><br> Number: 5</P>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="image/calc.png" alt="" style="width: 100px; height: 100px; margin-top: 20px">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-1 btn-info" style="width: 100%">Remove from Cart</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="col-md-12 check-out-2">
+                        <div class="row">
+                            <div class="col-md-6 subject-box">
+                                <P>Subject: Music<br> Location: Cardiff<br> Price: <span>&#163;100</span><br> Number: 5</P>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="image/music.png" alt="" style="width: 100px; height: 100px; margin-top: 20px">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-1 btn-info" style="width: 100%">Remove from Cart</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="col-md-12 check-out-3">
+                        <div class="row">
+                            <div class="col-md-6 subject-box">
+                                <P>Subject: Maths<br> Location: London<br> Price: <span>&#163;100</span><br> Number: 5</P>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="image/calc.png" alt="" style="width: 100px; height: 100px; margin-top: 20px">
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-1 btn-info" style="width: 100%">Remove from Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="check-out-form">
+        <div class="container">
+            <div class="row check-out-row">
+                <div class="col-md-12">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Full name">
+                            </div>
+                            <div class="col">
+                                <input type="tel" class="form-control" placeholder="Mobile number">
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button type="button" class="btn checkout-btn btn-info">Check Out</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

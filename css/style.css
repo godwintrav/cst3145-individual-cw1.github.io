@@ -1,0 +1,136 @@
+#search-bar {
+    margin-top: 40px;
+    height: 80px;
+    border-bottom: 1px solid #CACACA;
+}
+
+#search-bar h2 {
+    font-family: cursive;
+    color: #408497;
+}
+
+#search-bar .form-control {
+    background: #CACACA;
+    border: none;
+}
+
+#search-bar .form-control {
+    outline: none !important;
+    box-shadow: none;
+}
+
+#navigation {
+    padding-top: 20px;
+    background: #f5f9fa;
+    color: #1a1919;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#product {
+    margin-top: 30px;
+}
+
+#product .drop-down-1 {
+    margin-bottom: 150px;
+}
+
+#product .drop-2 {
+    width: 100%;
+}
+
+#product .drop-item-2 {
+    padding-left: 15px;
+}
+
+#product .subject-1 {
+    border: 1px solid #408497;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#product .subject-2 {
+    border: 1px solid #408497;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#product .subject-3 {
+    border: 1px solid #408497;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#product .subject-4 {
+    border: 1px solid #408497;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#product .subject-5,
+.check-out-1,
+.check-out-2,
+.check-out-3,
+.check-out-4 {
+    border: 1px solid #408497;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#product .subject-6 {
+    border: 1px solid #408497;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#product .subject-box {
+    padding: 20px 0 20px 15px;
+}
+
+#product .grid-1 {
+    margin-bottom: 30px;
+}
+
+#check-out {
+    margin-top: 30px;
+}
+
+#check-out .subject-box {
+    padding: 20px 0 20px 15px;
+}
+
+#check-out-form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#check-out-form .check-out-row {
+    border-radius: 15px;
+    background: #CACACA;
+    padding: 50px;
+}
+
+#check-out-form .checkout-btn {
+    margin-top: 20px;
+    width: 40%;
+}
+
+#check-out-form .checkout-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#product .select-btn-1:focus {
+    outline: none !important;
+    box-shadow: none;
+}
+
+#product .select-btn-2:focus {
+    outline: none !important;
+    box-shadow: none;
+}
