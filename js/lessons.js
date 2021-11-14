@@ -33,7 +33,7 @@ let lessons = [
         price: 50,
         numOfSpaces: 5,
         image: 'image/business.jpg',
-        icon: 'fa fa-calculator'
+        icon: 'fa fa-folder-open'
     },
     {
         id: 1005,
@@ -42,7 +42,7 @@ let lessons = [
         price: 900,
         numOfSpaces: 5,
         image: 'image/computer.jpg',
-        icon: 'fa fa-calculator'
+        icon: 'fa fa-desktop'
     },
     {
         id: 1006,
@@ -51,7 +51,7 @@ let lessons = [
         price: 150,
         numOfSpaces: 5,
         image: 'image/physics.jpg',
-        icon: 'fa fa-calculator'
+        icon: 'fa fa-cubes'
     },
     {
         id: 1007,
@@ -60,7 +60,7 @@ let lessons = [
         price: 120,
         numOfSpaces: 5,
         image: 'image/music.jpg',
-        icon: 'fa fa-calculator'
+        icon: 'fa fa-music'
     },
     {
         id: 1008,
@@ -69,7 +69,7 @@ let lessons = [
         price: 600,
         numOfSpaces: 5,
         image: 'image/pentool.png',
-        icon: 'fa fa-calculator'
+        icon: 'fa fa-graduation-cap'
     },
     {
         id: 1009,
@@ -78,7 +78,7 @@ let lessons = [
         price: 400,
         numOfSpaces: 5,
         image: 'image/crs.png',
-        icon: 'fa fa-calculator'
+        icon: 'fa fa-university'
     },
     {
         id: 1010,
@@ -87,6 +87,6 @@ let lessons = [
         price: 200,
         numOfSpaces: 5,
         image: 'image/chemistry.jpg',
-        icon: 'fa fa-calculator'
+        icon: 'fa fa-thermometer-three-quarters'
     },
 ]
