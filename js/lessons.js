@@ -15,7 +15,7 @@ let lessons = [
         price: 160,
         numOfSpaces: 5,
         image: 'image/english.jpg',
-        icon: 'fa fa-calculator'
+        icon: 'fa fa-book'
     },
     {
         id: 1003,
@@ -24,7 +24,7 @@ let lessons = [
         price: 10,
         numOfSpaces: 5,
         image: 'image/science.jpg',
-        icon: 'fa fa-calculator'
+        icon: 'fa fa-briefcase'
     },
     {
         id: 1004,
