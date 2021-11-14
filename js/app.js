@@ -21,6 +21,7 @@ new Vue({
         },
         checkOutName: '',
         checkOutNumber: '',
+        checkOutRegexValid: false
     },
     methods: {
         addLessonToCart: function(id){
@@ -51,6 +52,15 @@ new Vue({
                 return;
             } 
             return this.lessons[lessonIndex];
+        },
+        validateRegexCheckOut: function(){
+            var nameRegexPattern = /^[A-Za-z]+$/;
+            var numberRegexPattern = /^\d+$/;
+            if(this.checkOutName.match(nameRegexPattern) && this.checkOutNumber.match(numberRegexPattern)){
+                this.checkOutRegexValid = true;
+            }else{
+                this.checkOutRegexValid = false;
+            }
         }
     },
     computed: {
@@ -120,15 +130,6 @@ new Vue({
                 } else{
                     return this.lessons.sort(compareSpacesDesc);
                 }
-            }
-        },
-        validateRegexCheckOut: function(){
-            var nameRegexPattern = /^[A-Za-z]+$/;
-            var numberRegexPattern = /^\d+$/;
-            if(this.checkOutName.match(nameRegexPattern) && this.checkOutNumber.match(numberRegexPattern)){
-                return true;
-            }else{
-                return false;
             }
         }
     }
