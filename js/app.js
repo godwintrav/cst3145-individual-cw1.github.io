@@ -21,7 +21,7 @@ new Vue({
         },
         checkOutName: '',
         checkOutNumber: '',
-        checkOutRegexValid: false
+        cannotCheckOut: true
     },
     methods: {
         addLessonToCart: function(id){
@@ -56,10 +56,10 @@ new Vue({
         validateRegexCheckOut: function(){
             var nameRegexPattern = /^[A-Za-z]+$/;
             var numberRegexPattern = /^\d+$/;
-            if(this.checkOutName.match(nameRegexPattern) && this.checkOutNumber.match(numberRegexPattern)){
-                this.checkOutRegexValid = true;
+            if(this.checkOutName.match(nameRegexPattern) && this.checkOutNumber.match(numberRegexPattern) ){
+                this.cannotCheckOut = false;
             }else{
-                this.checkOutRegexValid = false;
+                this.cannotCheckOut = true;
             }
         }
     },

@@ -135,14 +135,14 @@
                             <form>
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="Full name" v-model="checkOutName" v-on:keyup="validateRegexCheckOut">
+                                        <input v-on:keyup="validateRegexCheckOut" type="text" class="form-control" placeholder="Full name" v-model="checkOutName" >
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="Mobile number" v-model="checkOutNumber" v-on:keyup="validateRegexCheckOut">
+                                        <input v-on:keyup="validateRegexCheckOut" type="text" class="form-control" placeholder="Mobile number" v-model="checkOutNumber" >
                                     </div>
                                 </div>
                                 <div class="col-md-12 text-center">
-                                    <button v-bind:disabled="checkOutRegexValid" type="button" class="btn checkout-btn btn-info">Check Out</button>
+                                    <button v-bind:disabled="cannotCheckOut" type="button" class="btn checkout-btn btn-info">Check Out</button>
                                 </div>
                             </form>
                         </div>
