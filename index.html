@@ -107,8 +107,8 @@
                 <div class="row">
 
 
-                    <div v-for="(cartItem, index) in cartItems" class="col-md-4">
-                        <div class="col-md-12 check-out-1">
+                    <div v-for="(cartItem, index) in cartItems" class="col-md-4" style="margin-bottom: 20px;">
+                        <div class="col-md-12 check-out-1" >
                             <div class="row">
                                 <div class="col-md-6 subject-box">
                                     <P>Subject: {{ fetchLesson(cartItem).subject }}<br> Location: {{ fetchLesson(cartItem).location }}<br> Price: <span>&#163;{{ fetchLesson(cartItem).price }}</span><br>  Icon: <span v-bind:class="fetchLesson(cartItem).icon"></span></P>
@@ -135,10 +135,10 @@
                             
                                 <div class="row">
                                     <div class="col">
-                                        <input v-on:keyup="validateRegexCheckOut" type="text" class="form-control" placeholder="Full name" v-model="checkOutName" >
+                                        <input v-on:keyup="validateRegexCheckOut" type="text" class="form-control" placeholder="Enter your full name" v-model="checkOutName" >
                                     </div>
                                     <div class="col">
-                                        <input v-on:keyup="validateRegexCheckOut" type="text" class="form-control" placeholder="Mobile number" v-model="checkOutNumber" >
+                                        <input v-on:keyup="validateRegexCheckOut" type="text" class="form-control" placeholder="Enter your mobile number" v-model="checkOutNumber" >
                                     </div>
                                 </div>
                                 <div class="col-md-12 text-center">
