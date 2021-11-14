@@ -54,7 +54,7 @@ new Vue({
             return this.lessons[lessonIndex];
         },
         validateRegexCheckOut: function(){
-            var nameRegexPattern = /^[A-Za-z]+$/;
+            var nameRegexPattern = /^[a-zA-Z ]*$/;;
             var numberRegexPattern = /^\d+$/;
             if(this.checkOutName.match(nameRegexPattern) && this.checkOutNumber.match(numberRegexPattern) ){
                 this.cannotCheckOut = false;
