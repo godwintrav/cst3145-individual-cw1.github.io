@@ -40,6 +40,7 @@ new Vue({
         },
         searchLessons: function(){
             this.lessons = lessons;
+            console.log("searched");
             this.lessons = this.lessons.filter(lesson => lesson.subject.toLowerCase().includes(this.searchTxt) == true || lesson.location.toLowerCase().includes(this.searchTxt));
         },
         fetchLesson: function(id){
