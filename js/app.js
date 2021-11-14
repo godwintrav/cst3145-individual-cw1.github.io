@@ -19,6 +19,8 @@ new Vue({
             Price: 'price',
             Spaces: 'spaces'
         },
+        checkOutName: '',
+        checkOutNumber: '',
     },
     methods: {
         addLessonToCart: function(id){
@@ -118,6 +120,13 @@ new Vue({
                 } else{
                     return this.lessons.sort(compareSpacesDesc);
                 }
+            }
+        },
+        validateRegexCheckOut: function(){
+            var namePattern = /^[A-Za-z]+$/;
+            var numberPattern = /^\d+$/;
+            if(checkOutName.match(namePattern) && checkOutNumber){
+
             }
         }
     }
