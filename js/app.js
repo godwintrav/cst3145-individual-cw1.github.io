@@ -123,10 +123,12 @@ new Vue({
             }
         },
         validateRegexCheckOut: function(){
-            var namePattern = /^[A-Za-z]+$/;
-            var numberPattern = /^\d+$/;
-            if(checkOutName.match(namePattern) && checkOutNumber){
-
+            var nameRegexPattern = /^[A-Za-z]+$/;
+            var numberRegexPattern = /^\d+$/;
+            if(this.checkOutName.match(nameRegexPattern) && this.checkOutNumber.match(numberRegexPattern)){
+                return true;
+            }else{
+                return false;
             }
         }
     }
