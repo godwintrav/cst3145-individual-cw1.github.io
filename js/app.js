@@ -61,6 +61,13 @@ new Vue({
             }else{
                 this.cannotCheckOut = true;
             }
+        },
+        checkOut: function(){
+            swal({
+                title: "Check out successful",
+                text: "Your order has been submitted",
+                icon: "success",
+              });
         }
     },
     computed: {
